@@ -1,0 +1,107 @@
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+@import "../../node_modules/font-awesome/scss/font-awesome.scss";
+
+
+* {
+font-family: 'Helvetica';
+box-sizing: border-box;
+}
+
+body{
+	background: #CCC;
+
+
+
+
+}
+
+#app-container{
+	max-width: 768px;
+	margin: 0 auto;
+	background: url('http://charlethedog.com/wp-content/uploads/2014/06/Toto-4.jpg') center center no-repeat;
+	background-size: cover;
+	position: relative;
+	.todo-nav{
+		border: none;
+		.todo-tab-active{
+				a{
+					border: 2px solid #000;
+				}
+
+		}
+	}
+
+
+
+		.todo-container{
+
+			margin-left: -76px;
+			margin-top: 50px;
+
+			border: 10px solid #000;
+			border-radius: 6px;
+
+			background: #fff;
+			.app-header{
+				font-weight: 300;
+				text-align: center;
+				margin: 0 auto;
+			}
+
+			.nav-bar{
+				font-weight: 700;
+				color: #FFF;
+
+				.nav-tab{
+					padding: 0;
+					background: #89C4F4;
+
+				}
+				.selected{
+
+					background: #22313F;
+				}
+
+
+
+
+			}
+			.add-todo{
+				border-style: none;
+				margin: 4px 43%;
+				background: none;
+				border-bottom: 2px solid #000;
+
+
+
+			}
+
+			.todo-list{
+				padding: 0;
+				margin: 0 20%;
+
+				.todo-item{
+					font-weight: 700;
+					border-bottom: 2px solid #000;
+					margin: 4px auto;
+					list-style: none;
+
+					> *{display: inline-block;}
+
+				}
+				.right-col{
+
+					.item-eraser{
+						font-size: 2rem;
+						text-shadow: 1px 1px rgba(255, 255, 255, .4);
+						color: #F39CAC;
+
+					}
+				}
+
+
+
+			}
+		}
+
+	}
